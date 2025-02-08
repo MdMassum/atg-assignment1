@@ -75,16 +75,16 @@ export default function AuthModal({ setOpen, setLogin }) {
         <div className="w-1/2 pr-4">
           <form className="">
             {isSignUp && (
-              <div className="flex">
+              <div className="flex max-w-80">
                 <input
                   type="text"
                   placeholder="First Name"
-                  className="flex-1 border border-gray-300  p-2 text-sm focus:outline-none focus:ring-2  bg-transparent placeholder-gray-500"
+                  className="flex-1 border border-gray-300  p-2 text-sm focus:outline-none focus:ring-2  bg-transparent placeholder-gray-500 w-1/2"
                 />
                 <input
                   type="text"
                   placeholder="Last Name"
-                  className="flex-1 border border-gray-300  p-2 text-sm focus:outline-none focus:ring-2  bg-transparent placeholder-gray-500"
+                  className="flex-1 border border-gray-300  p-2 text-sm focus:outline-none focus:ring-2  bg-transparent placeholder-gray-500 w-1/2"
                 />
               </div>
             )}

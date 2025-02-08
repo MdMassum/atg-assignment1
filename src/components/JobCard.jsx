@@ -9,7 +9,7 @@ const JobCard = () => {
   return (
     <div className="max-w-[550px] mt-4 border rounded-lg shadow-sm overflow-hidden bg-white">
       {/* Card Content */}
-      <div className="p-4">
+      <div className="p-4 w-full">
         {/* Job Tag */}
         <p className="text-sm text-gray-500 flex items-center mb-2 font-semibold">
           <span className="mr-2">💼</span> Job
@@ -19,19 +19,19 @@ const JobCard = () => {
         
         <div className="flex justify-between">
         <h2 className="text-lg font-bold text-black mb-2">
-          Software Developer
+        software Developer
         </h2>
           <BsThreeDots className="mt-1 cursor-pointer" size={20}/>
         </div>
 
         {/* Company Name and Location */}
         <div className="text-sm font-semibold text-gray-600 flex items-center space-x-4 mb-4">
-          <div className="flex items-center">
-            <FaHome/>
+          <div className="flex gap-1 min-w-4">
+            <FaHome className="mt-1"/>
             Innovaccer Analytics Private Ltd.
           </div>
-          <div className="flex items-center">
-          <MdLocationPin/>
+          <div className="flex items-center min-w-28">
+          <MdLocationPin/>4
             Noida, India
           </div>
         </div>

@@ -30,16 +30,16 @@ const MobileLoginModal = ({ setOpen,setLogin }) => {
         {/* Form */}
         <form className="mt-2">
           {isSignUp && (
-            <div className="flex">
+            <div className="flex max-w-[500px]">
               <input
                 type="text"
                 placeholder="First Name"
-                className="flex-1 border border-gray-300 p-2  bg-transparent"
+                className="flex-1 border border-gray-300 p-2  bg-transparent w-1/2"
               />
               <input
                 type="text"
                 placeholder="Last Name"
-                className="flex-1 border border-gray-300 p-2 bg-transparent"
+                className="flex-1 border border-gray-300 p-2 bg-transparent w-1/2"
               />
             </div>
           )}
